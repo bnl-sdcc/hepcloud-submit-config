@@ -1,2 +1,2 @@
 include INSTALL* LICENSE README.md
-
+include etc/*
