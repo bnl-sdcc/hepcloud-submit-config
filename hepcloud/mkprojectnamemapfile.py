@@ -11,7 +11,7 @@
 # 
 
 import argparse
-from configparser import ConfigParser
+from ConfigParser import ConfigParser
 import logging
 import grp
 import pwd
