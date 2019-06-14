@@ -22,9 +22,9 @@ setup(
                ],
     install_requires=[],
     
-    data_files=[ ('/etc/condor/config.d/', 'etc/97_projectname.config'),
-                 ('/etc/condor/', 'etc/mkprojectnamemapfile.conf'),
-                 ('/etc/cron.d/', 'etc/mkprojectnamemapfile.cron'),              
+    data_files=[ ('/etc/condor/config.d/', ['etc/97_projectname.config']),
+                 ('/etc/condor/', ['etc/mkprojectnamemapfile.conf']),
+                 ('/etc/cron.d/', ['etc/mkprojectnamemapfile.cron']),              
         ],
     )
 
