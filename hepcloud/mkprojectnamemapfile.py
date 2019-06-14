@@ -96,7 +96,7 @@ if __name__ == '__main__':
      
     mh = MapfileHandler(config)
     mh.create_mapfile()
-    print(mh.map)
+    logging.debug("Map is : %s" % mh.map)
     mh.write_mapfile()
     
 
