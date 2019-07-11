@@ -79,7 +79,7 @@ if __name__ == '__main__':
     parser.add_argument('-m', '--mapfile', 
                         action="store", 
                         dest='mapfile', 
-                        default="/etc/globus/globus-acct-map",
+                        default="/etc/condor/projectname.usermap",
                         help='path to write map file')    
     
     parser.add_argument('-d', '--debug', 
